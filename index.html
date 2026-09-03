@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>23 Mandingas Para Seu Ex Voltar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --void:#150C24;
+    --panel:#1E1235;
+    --panel-2:#241640;
+    --gold:#C9A227;
+    --gold-light:#E8CB7A;
+    --ember:#C1603A;
+    --ink:#F1E7D6;
+    --ink-muted:#B6A6CE;
+    --hairline:rgba(201,162,39,0.28);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--void);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    font-weight:400;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.serif{
+    font-family:'Cormorant Garamond', serif;
+    font-weight:500;
+    margin:0;
+    letter-spacing:0.01em;
+  }
+  .wrap{
+    max-width:700px;
+    margin:0 auto;
+    padding:0 28px;
+  }
+  section{padding:88px 0;}
+  a{color:inherit;}
+
+  /* ---------- Ornamento divisor ---------- */
+  .divider{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto;
+    width:64px;
+    opacity:0.85;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    padding:110px 0 96px;
+    text-align:center;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:"";
+    position:absolute;
+    top:-160px;
+    left:50%;
+    transform:translateX(-50%);
+    width:640px;
+    height:640px;
+    background:radial-gradient(circle, rgba(201,162,39,0.18) 0%, rgba(201,162,39,0.05) 40%, rgba(21,12,36,0) 70%);
+    pointer-events:none;
+  }
+  .hero-content{position:relative;}
+  .hero h1{
+    font-size:clamp(34px, 5.2vw, 52px);
+    line-height:1.18;
+    color:var(--ink);
+    margin:28px 0 22px;
+  }
+  .hero h1 em{
+    font-style:italic;
+    color:var(--gold-light);
+  }
+  .hero p.lead{
+    font-size:18px;
+    color:var(--ink-muted);
+    max-width:520px;
+    margin:0 auto 40px;
+  }
+  .mockup-wrap{
+    display:flex;
+    justify-content:center;
+    margin:0 auto 44px;
+  }
+  .mockup{
+    max-width:280px;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 24px 60px -18px rgba(0,0,0,0.6), 0 0 0 1px rgba(201,162,39,0.35);
+  }
+  @media (max-width:560px){
+    .mockup{max-width:220px;}
+  }
+
+  /* ---------- Botao ---------- */
+  .btn{
+    display:inline-block;
+    font-family:'Work Sans', sans-serif;
+    font-weight:600;
+    font-size:16px;
+    color:var(--void);
+    background:linear-gradient(180deg, var(--gold-light) 0%, var(--gold) 100%);
+    padding:17px 38px;
+    border-radius:999px;
+    text-decoration:none;
+    letter-spacing:0.01em;
+    box-shadow:0 0 0 1px rgba(201,162,39,0.6), 0 12px 32px -8px rgba(201,162,39,0.55);
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .btn:hover{
+    transform:translateY(-1px);
+    box-shadow:0 0 0 1px rgba(232,203,122,0.9), 0 16px 40px -8px rgba(201,162,39,0.7);
+  }
+  .btn-wrap{text-align:center;}
+
+  /* ---------- Secao padrao ---------- */
+  .eyebrow{
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:19px;
+    color:var(--gold-light);
+    margin:0 0 10px;
+  }
+  h2.title{
+    font-size:clamp(26px, 3.6vw, 34px);
+    margin-bottom:22px;
+  }
+  p{color:var(--ink);}
+  p.muted{color:var(--ink-muted);}
+
+  /* ---------- Dor ---------- */
+  .dor p{margin:0 0 16px; font-size:17px;}
+  .dor p:last-of-type{margin-bottom:0;}
+
+  /* ---------- Agitacao ---------- */
+  .agitacao{
+    background:var(--panel);
+    border-top:1px solid var(--hairline);
+    border-bottom:1px solid var(--hairline);
+  }
+  .erros{list-style:none; margin:28px 0 0; padding:0;}
+  .erros li{
+    display:flex;
+    gap:14px;
+    padding:16px 0;
+    border-bottom:1px solid rgba(201,162,39,0.14);
+    font-size:16px;
+    color:var(--ink-muted);
+  }
+  .erros li:last-child{border-bottom:none;}
+  .erros .mark{
+    flex:none;
+    color:var(--ember);
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+    font-size:20px;
+    line-height:1.5;
+  }
+  .agitacao .closing{
+    margin-top:30px;
+    font-size:18px;
+    color:var(--gold-light);
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic;
+  }
+
+  /* ---------- Solucao ---------- */
+  .solucao{text-align:center;}
+  .solucao .badge-name{
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(28px, 4vw, 38px);
+    color:var(--gold-light);
+    margin:6px 0 20px;
+  }
+  .solucao p{max-width:540px; margin-left:auto; margin-right:auto; font-size:17px; color:var(--ink-muted);}
+
+  /* ---------- Inclusos ---------- */
+  .inclusos-list{list-style:none; margin:30px 0 0; padding:0; display:flex; flex-direction:column; gap:0;}
+  .inclusos-list li{
+    display:flex;
+    align-items:flex-start;
+    gap:16px;
+    padding:18px 0;
+    border-bottom:1px solid rgba(201,162,39,0.16);
+    font-size:16px;
+  }
+  .inclusos-list li:first-child{border-top:1px solid rgba(201,162,39,0.16);}
+  .inclusos-list .icon{flex:none; width:22px; height:22px; margin-top:2px;}
+  .inclusos-list strong{color:var(--ink); font-weight:600;}
+  .inclusos-list span.desc{display:block; color:var(--ink-muted); margin-top:2px;}
+
+  /* ---------- Prova social ---------- */
+  .prova{
+    background:var(--panel);
+    border-top:1px solid var(--hairline);
+    border-bottom:1px solid var(--hairline);
+  }
+  .depoimentos{display:flex; flex-direction:column; gap:24px; margin-top:32px;}
+  .depoimento{
+    background:var(--panel-2);
+    border:1px solid var(--hairline);
+    border-radius:6px;
+    padding:26px 28px;
+    position:relative;
+  }
+  .depoimento .aspas{
+    font-family:'Cormorant Garamond', serif;
+    font-size:44px;
+    color:var(--gold);
+    line-height:0;
+    display:block;
+    margin-bottom:10px;
+    opacity:0.7;
+  }
+  .depoimento p.fala{
+    font-family:'Cormorant Garamond', serif;
+    font-size:19px;
+    font-style:italic;
+    color:var(--ink);
+    margin:0 0 12px;
+  }
+  .depoimento .autor{font-size:14px; color:var(--ink-muted);}
+
+  /* ---------- Oferta ---------- */
+  .oferta{text-align:center;}
+  .oferta-card{
+    background:var(--panel-2);
+    border:1px solid var(--hairline);
+    border-radius:8px;
+    padding:44px 32px;
+    margin-top:26px;
+  }
+  .preco-de{
+    color:var(--ink-muted);
+    text-decoration:line-through;
+    font-size:16px;
+  }
+  .preco-por{
+    font-family:'Cormorant Garamond', serif;
+    font-size:52px;
+    color:var(--gold-light);
+    margin:6px 0 4px;
+  }
+  .preco-nota{font-size:14px; color:var(--ink-muted); margin-bottom:28px;}
+  .garantia{
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    font-size:14px;
+    color:var(--ink-muted);
+  }
+  .garantia svg{flex:none;}
+
+  .reforco{text-align:center; padding-top:0;}
+  .reforco p{max-width:520px; margin:0 auto 32px; color:var(--ink-muted); font-size:17px;}
+
+  /* ---------- FAQ ---------- */
+  .faq-item{
+    border-bottom:1px solid rgba(201,162,39,0.2);
+  }
+  .faq-item:first-child{border-top:1px solid rgba(201,162,39,0.2);}
+  .faq-item summary{
+    cursor:pointer;
+    list-style:none;
+    padding:22px 0;
+    font-family:'Cormorant Garamond', serif;
+    font-size:20px;
+    color:var(--ink);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary .plus{
+    flex:none;
+    font-family:'Work Sans', sans-serif;
+    font-size:20px;
+    color:var(--gold);
+    transition:transform 0.2s ease;
+  }
+  .faq-item[open] summary .plus{transform:rotate(45deg);}
+  .faq-item .a{
+    padding:0 0 24px;
+    color:var(--ink-muted);
+    font-size:16px;
+    max-width:600px;
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    padding:56px 0 64px;
+    text-align:center;
+    border-top:1px solid var(--hairline);
+  }
+  footer p{font-size:13px; color:var(--ink-muted); max-width:520px; margin:0 auto 18px;}
+  footer .links{font-size:13px; color:var(--ink-muted);}
+  footer .links a{color:var(--gold-light); text-decoration:none; margin:0 8px;}
+
+  @media (max-width:560px){
+    section{padding:64px 0;}
+    .hero{padding:80px 0 64px;}
+    .depoimento{padding:22px 20px;}
+    .oferta-card{padding:34px 22px;}
+  }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap hero-content">
+    <div class="divider">
+      <svg width="64" height="30" viewBox="0 0 64 30" fill="none">
+        <path d="M2 15 H24" stroke="#C9A227" stroke-width="1"/>
+        <path d="M40 15 H62" stroke="#C9A227" stroke-width="1"/>
+        <path d="M32 6 C 26 6 22 10.5 22 15 C22 19.5 26 24 32 24 C 29 21 27.5 18 27.5 15 C27.5 12 29 9 32 6 Z" fill="#E8CB7A"/>
+        <path d="M32 3 L33.4 8.2 L38.5 9.5 L33.4 10.8 L32 16 L30.6 10.8 L25.5 9.5 L30.6 8.2 Z" fill="#C9A227" transform="translate(0,-1) scale(0.8)" />
+      </svg>
+    </div>
+    <h1>Ele(a) foi embora.<br>Mas ninguém disse que era <em>pra sempre</em>.</h1>
+    <p class="lead">23 mandingas — simpatias, gatilhos e atitudes estratégicas — para reatar sem implorar, sem choro e sem aparecer "por acaso" na porta da casa dele(a).</p>
+    <div class="mockup-wrap">
+      <img class="mockup" src="https://doram.shop/wp-content/uploads/2026/09/chatgpt-image-19-de-jan.-de-2026-11_21_58-naSIwQTOyusEtzlT-1.avif" alt="Capa do e-book 23 Mandingas Para Seu Ex Voltar">
+    </div>
+    <div class="btn-wrap">
+      <a class="btn" href="#oferta">Quero minhas 23 mandingas</a>
+    </div>
+  </div>
+</section>
+
+<section class="dor">
+  <div class="wrap">
+    <p class="eyebrow">antes de mais nada</p>
+    <h2 class="title">Você já deve ter passado a madrugada tentando decifrar um story.</h2>
+    <p>Já reescreveu a mesma mensagem umas dez vezes antes de decidir não mandar — ou mandou mesmo assim.</p>
+    <p>Já se perguntou baixinho: <span class="serif" style="font-style:italic;color:var(--gold-light);">"será que ainda dá tempo?"</span></p>
+    <p>Se alguma dessas cenas te lembrou de algo recente, respira: você não está sozinho(a), e o mais importante — ainda dá, sim, pra reverter esse jogo.</p>
+  </div>
+</section>
+
+<section class="agitacao">
+  <div class="wrap">
+    <p class="eyebrow">o que não funciona</p>
+    <h2 class="title">A maioria faz exatamente o que afasta o ex ainda mais.</h2>
+    <ul class="erros">
+      <li><span class="mark">✦</span>Manda mensagem toda hora perguntando "cadê você"</li>
+      <li><span class="mark">✦</span>Fica de olho no story só pra tentar decifrar indireta</li>
+      <li><span class="mark">✦</span>Aparece "sem querer" nos lugares que ele(a) frequenta</li>
+      <li><span class="mark">✦</span>Posta foto com "amigo(a) novo(a)" tentando dar ciúmes</li>
+    </ul>
+    <p class="closing">Tem um jeito certo de fazer isso — e não tem nada a ver com implorar.</p>
+  </div>
+</section>
+
+<section class="solucao">
+  <div class="wrap">
+    <div class="divider">
+      <svg width="46" height="46" viewBox="0 0 46 46" fill="none">
+        <path d="M23 2 L26 20 L44 23 L26 26 L23 44 L20 26 L2 23 L20 20 Z" stroke="#C9A227" stroke-width="1"/>
+      </svg>
+    </div>
+    <p class="eyebrow">a virada</p>
+    <div class="badge-name">23 Mandingas Para Seu Ex Voltar</div>
+    <p>Um guia compacto reunindo simpatias populares, técnicas comportamentais e jogadas estratégicas usadas por quem conseguiu reverter o término e reconquistar o ex de forma natural — sem parecer desesperado(a).</p>
+    <p>Não é mágica. É estratégia com um tempero de crenças populares que o Brasil inteiro já usa, combinada com a atitude certa no momento certo.</p>
+  </div>
+</section>
+
+<section class="inclusos">
+  <div class="wrap">
+    <p class="eyebrow">o que vem no guia</p>
+    <h2 class="title">Tudo o que você recebe</h2>
+    <ul class="inclusos-list">
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 3 C8 3 5 7 5 11.5 C5 16.8 8.5 20 12 21 C15.5 20 19 16.8 19 11.5 C19 7 16 3 12 3 Z" stroke="#C9A227" stroke-width="1.3"/></svg>
+        <div><strong>23 mandingas passo a passo</strong><span class="desc">Prontas pra aplicar hoje mesmo, na ordem certa.</span></div>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 2 L14 9 L21 11 L14 13 L12 20 L10 13 L3 11 L10 9 Z" stroke="#C9A227" stroke-width="1.3"/></svg>
+        <div><strong>Simpatias populares testadas</strong><span class="desc">As mesmas que já circulam de geração em geração.</span></div>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="#C9A227" stroke-width="1.3"/><path d="M12 8 V12 L15 14" stroke="#C9A227" stroke-width="1.3"/></svg>
+        <div><strong>Gatilhos comportamentais</strong><span class="desc">Pra despertar a saudade sem parecer forçado(a).</span></div>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 20 L4 12 C4 8 8 4 12 4 C16 4 20 8 20 12 L20 20" stroke="#C9A227" stroke-width="1.3"/></svg>
+        <div><strong>O que nunca fazer nos primeiros dias</strong><span class="desc">Os erros que colocam tudo a perder logo no início.</span></div>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="14" rx="1" stroke="#C9A227" stroke-width="1.3"/><path d="M4 9 H20" stroke="#C9A227" stroke-width="1.3"/></svg>
+        <div><strong>Bônus: frases e atitudes proibidas</strong><span class="desc">O que evitar dizer ou fazer em qualquer fase da reconquista.</span></div>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M9 12 L11 14 L15 9" stroke="#C9A227" stroke-width="1.3"/><circle cx="12" cy="12" r="8.5" stroke="#C9A227" stroke-width="1.3"/></svg>
+        <div><strong>Bônus: checklist "estou pronto(a)?"</strong><span class="desc">Pra saber se é o momento certo de agir.</span></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="prova">
+  <div class="wrap">
+    <p class="eyebrow">quem já usou</p>
+    <h2 class="title">Não é só simpatia — é mudar o jeito de agir.</h2>
+    <div class="depoimentos">
+      <div class="depoimento">
+        <span class="aspas">"</span>
+        <p class="fala">Segui só três das mandingas e ele me chamou em menos de uma semana.</p>
+        <div class="autor">— espaço reservado para depoimento real</div>
+      </div>
+      <div class="depoimento">
+        <span class="aspas">"</span>
+        <p class="fala">Não é só a simpatia em si, é o jeito de pensar que muda tudo.</p>
+        <div class="autor">— espaço reservado para depoimento real</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="oferta" id="oferta">
+  <div class="wrap">
+    <div class="divider">
+      <svg width="64" height="30" viewBox="0 0 64 30" fill="none">
+        <path d="M2 15 H24" stroke="#C9A227" stroke-width="1"/>
+        <path d="M40 15 H62" stroke="#C9A227" stroke-width="1"/>
+        <circle cx="32" cy="15" r="9" stroke="#C9A227" stroke-width="1"/>
+      </svg>
+    </div>
+    <p class="eyebrow">o momento é agora</p>
+    <h2 class="title">23 Mandingas Para Seu Ex Voltar</h2>
+    <div class="oferta-card">
+      <div class="preco-de">R$ XX,XX</div>
+      <div class="preco-por">R$ XX,XX</div>
+      <div class="preco-nota">acesso imediato · direto no seu celular ou computador</div>
+      <a class="btn" href="#">Quero reconquistar agora</a>
+      <div class="garantia">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3 L20 6 V12 C20 17 16.5 20.5 12 22 C7.5 20.5 4 17 4 12 V6 Z" stroke="#E8CB7A" stroke-width="1.3"/></svg>
+        Garantia incondicional de 7 dias
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reforco">
+  <div class="wrap">
+    <p>Cada dia que passa é um dia a mais de distância entre vocês dois. As mandingas certas, no momento certo, podem ser a diferença entre "deixa pra lá" e "vamos tentar de novo".</p>
+    <a class="btn" href="#oferta">Quero minhas 23 mandingas</a>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <p class="eyebrow">antes de você ir</p>
+    <h2 class="title">Perguntas frequentes</h2>
+    <div>
+      <details class="faq-item">
+        <summary>Funciona mesmo?<span class="plus">+</span></summary>
+        <div class="a">O material reúne simpatias populares e técnicas comportamentais amplamente usadas. O resultado depende da aplicação e do contexto de cada relação — é uma ferramenta a mais a seu favor, não uma garantia mágica.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Em quanto tempo vejo resultado?<span class="plus">+</span></summary>
+        <div class="a">Varia de pessoa pra pessoa. Algumas mandingas têm efeito quase imediato na forma como você se posiciona; outras pedem mais paciência.</div>
+      </details>
+      <details class="faq-item">
+        <summary>E se ele(a) estiver com outra pessoa?<span class="plus">+</span></summary>
+        <div class="a">O guia tem uma seção específica com orientações pra esse cenário, sem drama e sem confronto.</div>
+      </details>
+      <details class="faq-item">
+        <summary>É golpe? É seguro comprar?<span class="plus">+</span></summary>
+        <div class="a">Não. É um e-book de conteúdo comportamental e cultural, com acesso imediato e garantia de 7 dias.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Recebo na hora?<span class="plus">+</span></summary>
+        <div class="a">Sim, o acesso é liberado automaticamente após a confirmação do pagamento.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Este produto tem caráter de entretenimento e desenvolvimento pessoal, combinando tradições populares brasileiras com orientações comportamentais. Não substitui aconselhamento profissional em casos de sofrimento emocional intenso.</p>
+    <div class="links"><a href="#">Termos de uso</a>·<a href="#">Privacidade</a>·<a href="#">Contato</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
